@@ -1,0 +1,9 @@
+{
+  "private": true,
+  "name": "react-native-monorepo",
+  "version": "1.0.0",
+  "scripts": {
+    "auth-example:ios": "pnpm run --filter=auth-example ios"
+  },
+  "workspaces": ["apps/*", "packages/*"]
+}
